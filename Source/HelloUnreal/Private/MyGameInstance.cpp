@@ -105,7 +105,7 @@ void UMyGameInstance::Init()
 		ValueA++;
 	}*/
 
-	int32 ValueA = 29;
+	int32 ValueA = 46;
 
 	/*do
 	{
