@@ -140,7 +140,7 @@ void UMyGameInstance::Init()
 	int32 Enemy = FMath::RandRange(0, 2); //0~2
 	int32 MyValue = FMath::RandRange(0, 2);
 
-	FString EnemyAttack;
+	FString EnemyAttack = TEXT("파워스트라이크");
 	FString MyAttack;
 
 	//랜덤으로 생성 된 숫자를 문자로 변환해보자
