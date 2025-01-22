@@ -161,7 +161,7 @@ int32 UMyGameInstance::Damage(int32 MyDamage, int32 EnemyHP)
 int32 UMyGameInstance::UseSkill(int32 Mana)
 {
 	int32 Result = Mana - 3;
-	UE_LOG(LogTemp, Warning, TEXT("마나가 %d 만큼 소비했습니다."), Result);
+	UE_LOG(LogTemp, Warning, TEXT("마나가 %d 만큼 남았습니다."), Result);
 	return Result;
 }
 
